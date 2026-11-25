@@ -1,0 +1,53 @@
+{
+  "manifestVersion": 5,
+  "id": "com.audit.dropboxorderopener",
+  "name": "Dropbox Order Opener",
+  "version": "2.2.0",
+  "main": "index.html",
+  "host": {
+    "app": "PS",
+    "minVersion": "22.0.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "orderOpenerPanel",
+      "label": {
+        "default": "Dropbox Order Opener"
+      },
+      "minimumSize": {
+        "width": 240,
+        "height": 220
+      },
+      "maximumSize": {
+        "width": 3840,
+        "height": 2160
+      },
+      "preferredDockedSize": {
+        "width": 360,
+        "height": 650
+      },
+      "preferredFloatingSize": {
+        "width": 460,
+        "height": 720
+      }
+    }
+  ],
+  "requiredPermissions": {
+    "localFileSystem": "fullAccess",
+    "network": {
+      "domains": [
+        "https://api.dropboxapi.com",
+        "https://content.dropboxapi.com",
+        "https://api.dropbox.com",
+        "https://*.dropboxapi.com",
+        "https://*.dropbox.com",
+        "https://raw.githubusercontent.com",
+        "https://api.github.com",
+        "https://github.com",
+        "https://*.githubusercontent.com"
+      ]
+    },
+    "clipboard": "readAndWrite"
+  }
+}

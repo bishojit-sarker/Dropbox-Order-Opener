@@ -1,0 +1,20 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Temp Caches & Downloads
+Temp_Cache/
+*.tmp
+*.log
+
+# Sensitive credentials & private tokens (DO NOT COMMIT)
+Dropbox access token/
+*.token
+config.json
+
+# Temporary archives & build files
+*.zip
+_release_notes_tmp.md
+.idea/
+.vscode/

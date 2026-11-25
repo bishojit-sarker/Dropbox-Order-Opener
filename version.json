@@ -1,0 +1,17 @@
+{
+  "version": "2.2.0",
+  "name": "Dropbox Order Opener",
+  "release_date": "2026-11-25",
+  "github_repo": "bishojit-sarker/Dropbox-Order-Opener",
+  "raw_base_url": "https://raw.githubusercontent.com/bishojit-sarker/Dropbox-Order-Opener/main",
+  "changelog": "Freely adjustable panel size, in-panel GitHub live auto-update, 1-click batch installer & GitHub publisher.",
+  "files": [
+    "manifest.json",
+    "index.html",
+    "style.css",
+    "main.js",
+    "dropbox-service.js",
+    "order-queue.js",
+    "cache-manager.js"
+  ]
+}
